@@ -1,0 +1,171 @@
+/*Universal Attributes*/
+* {
+    margin: auto;
+}
+
+p{
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h6 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    margin: 0;       
+    
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+/*img {max-width:100%;}*/
+
+/*Header*/
+
+header {
+    z-index: 1;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+       
+}
+
+header img {
+
+    height: 50px;
+    padding-left: 10px;
+    
+    
+    
+}
+ nav{
+    text-align: right;
+    flex-grow: 1;
+ }
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/*MAIN*/
+
+main {
+    padding-top: 69px;
+    width: 1200px;
+    opacity: 0.9;
+    margin:auto;
+
+}
+
+
+/*MISSION*/
+#missn {
+    
+    height: 700px;
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*11i42sm*_ga*MTY5OTAyNDQ3MC4xNjc3MjU2NTIx*_ga_3LRZM6TM9L*MTY4MTAxNTA4Ni4xMi4xLjE2ODEwMTU4OTMuMzIuMC4w");
+    padding-top: 70px;
+}
+
+
+.msn {
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+
+/*FEATURED*/
+
+#ftea {
+    
+    
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+
+}
+
+
+.ft {
+    
+    width: 1000px;
+    align-content: center;
+    background-color: black;
+    text-align: center;
+}
+
+.fte {
+    
+    
+    flex-direction: row;
+    padding: 10px;
+}
+
+.ture img {
+    padding: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+/*LOCATION*/
+
+#loc {
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*w5n5yw*_ga*MTY5OTAyNDQ3MC4xNjc3MjU2NTIx*_ga_3LRZM6TM9L*MTY4MTA0MjQxMy4xNC4xLjE2ODEwNDI0MTcuNTYuMC4w");
+    padding-top: 70px;
+    align-content: center;
+}
+
+.loca {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px 40px; 
+    width: 300px;
+    opacity: 1;
+    background-color: black;
+    line-height: 37px;
+}
+
+/*CONTACT*/
+
+#cont {
+    display: block;
+    height: 200px;
+    text-align: center;
+    padding: 40px 0px;
+    
+}
+
+
+/*FOOTER*/
+
+footer {
+    z-index: 1;
+    padding-left: 20px;
+    color: seashell;
+    
+    
+}
